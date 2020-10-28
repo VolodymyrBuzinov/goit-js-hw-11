@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.field {
+  padding: 20px;
+  background-color: tomato;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+  font-weight: 700;
+}
+button[data-action='start'] {
+  margin-right: 50px;
+}
+button[data-action] {
+  display: inline-block;
+  margin-top: 40px;
+  background-color: tomato;
+  padding: 20px;
+  font-weight: 700;
+}
