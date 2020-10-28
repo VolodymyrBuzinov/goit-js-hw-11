@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  padding: 20px;
+  background-color: tomato;
+  font-weight: 700;
+}
+.field:not(:last-child) {
+  margin-right: 50px;
+}
+
+button[data-action=start] {
+  margin-right: 50px;
+}
+
+button[data-action] {
+  display: inline-block;
+  margin-top: 40px;
+  background-color: tomato;
+  padding: 20px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
