@@ -24,9 +24,7 @@ refs.buttonStart.addEventListener('click', () => {
 });
 
 refs.buttonStop.addEventListener('click', () => {
-    refs.buttonStop.disabled = false;
-  clearInterval(timerId);
-  if (refs.buttonStop.disabled === false) {
-    refs.buttonStart.disabled = false;
-  }
+  refs.buttonStop.disabled = false;
+   refs.buttonStart.disabled = false;
+  clearInterval(timerId);  
 });
